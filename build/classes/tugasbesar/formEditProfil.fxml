@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="447.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasbesar.formEditProfil_Controller">
+   <children>
+      <Button fx:id="btnSimpan" layoutX="53.0" layoutY="378.0" mnemonicParsing="false" onAction="#aksiSimpan" prefHeight="34.0" prefWidth="141.0" style="-fx-background-color: #483D8B;" text="Simpan" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnHapus" layoutX="328.0" layoutY="382.0" mnemonicParsing="false" onAction="#aksiHapus" style="-fx-background-color: #483D8B;" text="Bersihkan" textFill="WHITE" />
+      <Label layoutX="53.0" layoutY="40.0" text="Nama">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="90.0" text="Email">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="140.0" text="Handphone">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="190.0" text="Jenis Kelamin">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="240.0" text="Alamat">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfNama" layoutX="170.0" layoutY="40.0" />
+      <TextField fx:id="tfEmail" layoutX="170.0" layoutY="90.0" />
+      <TextField fx:id="tfHandphone" layoutX="170.0" layoutY="140.0" />
+      <TextArea fx:id="tfAlamat" layoutX="172.0" layoutY="232.0" prefHeight="97.0" prefWidth="212.0" />
+      <RadioButton fx:id="radioBtn1" layoutX="186.0" layoutY="195.0" mnemonicParsing="false" onAction="#aksiKelamin" selected="true" text="Laki-Laki">
+         <toggleGroup>
+            <ToggleGroup fx:id="pilihKelamin" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="radioBtn2" layoutX="279.0" layoutY="195.0" mnemonicParsing="false" onAction="#aksiKelamin" selected="true" text="Perempuan" toggleGroup="$pilihKelamin" />
+      <Label layoutX="159.0" layoutY="40.0" text=":">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="159.0" layoutY="90.0" text=":">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="159.0" layoutY="140.0" text=":">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="190.0" text=":">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="159.0" layoutY="240.0" text=":">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="tugasbesar.formBeranda_Controller">
+   <children>
+      <ScrollPane layoutX="13.0" layoutY="21.0" prefHeight="358.0" prefWidth="576.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="634.0" prefWidth="576.0">
+               <children>
+                  <Pane layoutX="27.0" layoutY="14.0" prefHeight="158.0" prefWidth="147.0" style="-fx-background-color: #483D8B;">
+                     <children>
+                        <ImageView fitHeight="106.0" fitWidth="134.0" layoutX="7.0" layoutY="14.0" onMouseClicked="#aksiKlik1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/Sandal-dari-Rotan.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="27.0" layoutY="110.0" text="Sendal Rotan" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="205.0" layoutY="14.0" prefHeight="158.0" prefWidth="147.0" style="-fx-background-color: #483D8B;">
+                     <children>
+                        <Label layoutX="11.0" layoutY="108.0" text="Kap Lampu Rotan" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="105.0" fitWidth="127.0" layoutX="10.0" layoutY="14.0" onMouseClicked="#aksiKlik2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/Kap-Lampu-dari-Rotan.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="381.0" layoutY="14.0" prefHeight="158.0" prefWidth="147.0" style="-fx-background-color: #483D8B;">
+                     <children>
+                        <Label layoutX="15.0" layoutY="108.0" text="Keranjang Rotan" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="106.0" fitWidth="95.0" layoutX="26.0" layoutY="13.0" onMouseClicked="#aksiKlik3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/Keranjang-dari-Rotan.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="27.0" layoutY="191.0" onMouseClicked="#aksiKlik4" prefHeight="158.0" prefWidth="147.0" style="-fx-background-color: #483D8B;">
+                     <children>
+                        <Label layoutX="27.0" layoutY="110.0" text="Tempat Tisu" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="94.0" fitWidth="117.0" layoutX="27.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/Wdah-Tisu-dari-Bahan-Rotan.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="205.0" layoutY="191.0" prefHeight="158.0" prefWidth="147.0" style="-fx-background-color: #483D8B;">
+                     <children>
+                        <Label layoutX="34.0" layoutY="108.0" text="Kereta Bayi" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="96.0" fitWidth="92.0" layoutX="28.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/Kereta-Bayi-dari-Rotan.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="381.0" layoutY="191.0" prefHeight="158.0" prefWidth="147.0" style="-fx-background-color: #483D8B;">
+                     <children>
+                        <Label layoutX="34.0" layoutY="108.0" text="Kursi Rotan" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="86.0" fitWidth="121.0" layoutX="13.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/Anyaman-Furniture.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="27.0" layoutY="369.0" prefHeight="158.0" prefWidth="147.0" style="-fx-background-color: #483D8B;">
+                     <children>
+                        <Label layoutX="35.0" layoutY="112.0" text="Tas Rotan" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="104.0" fitWidth="102.0" layoutX="19.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/Tas-dari-Anyaman.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="205.0" layoutY="369.0" prefHeight="158.0" prefWidth="147.0" style="-fx-background-color: #483D8B;">
+                     <children>
+                        <Label layoutX="26.0" layoutY="119.0" prefHeight="25.0" prefWidth="96.0" text="Bantal Rotan" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="98.0" fitWidth="123.0" layoutX="24.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/Bantal-dari-Bahan-Rotan.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="381.0" layoutY="369.0" onMouseClicked="#aksiKlik4" prefHeight="158.0" prefWidth="147.0" style="-fx-background-color: #483D8B;">
+                     <children>
+                        <Label layoutX="22.0" layoutY="111.0" text="Dekorasi Gelas" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="136.0" layoutX="24.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/Dekorasi-Bentuk-Gelas.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
